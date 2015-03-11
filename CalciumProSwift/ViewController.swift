@@ -20,6 +20,40 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func myDataButtonPressed(sender: UIButton) {
+    }
 
+    @IBAction func myAnalysisButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func myAnalysisDisabledButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func myRisksButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func myRisksDisabledButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func viewBlogButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func learnButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func connectbuttonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func settingsButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func helpButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func aboutButtonPressed(sender: UIButton) {
+    }
+    
+    @IBAction func sharebuttonPressed(sender: UIButton) {
+    }
+    
 }
-
