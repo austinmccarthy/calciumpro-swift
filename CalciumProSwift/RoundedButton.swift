@@ -1,21 +1,21 @@
 //
 //  RoundedButton.swift
-//  CalciumProSwift
+//  Calcium Pro
 //
-//  Created by Austin McCarthy on 3/10/15.
-//  Copyright (c) 2015 austinmccarthy.com. All rights reserved.
+//  Created by Daniel Tartaglia on 2/5/15.
+//  Copyright (c) 2015 Daniel Tartaglia. All rights reserved.
 //
 
 import UIKit
 
-class RoundedButton: UIView {
+@IBDesignable
+class RoundedButton: UIButton {
 
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
-    }
-    */
-
+	override func setNeedsDisplay() {
+		super.setNeedsDisplay()
+		self.layer.cornerRadius = 10.0
+		self.layer.borderColor = UIColor(white: 0.8078, alpha: 1.0).CGColor
+		self.layer.borderWidth = 1.0
+	}
+	
 }
