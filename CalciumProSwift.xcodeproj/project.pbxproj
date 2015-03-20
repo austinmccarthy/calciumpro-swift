@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4506BFB91AB4EED800301C1B /* MyDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506BFB81AB4EED800301C1B /* MyDataTableViewController.swift */; };
 		4519AAE61AAE800B003981E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519AAE51AAE800B003981E9 /* AppDelegate.swift */; };
 		4519AAE81AAE800B003981E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519AAE71AAE800B003981E9 /* ViewController.swift */; };
 		4519AAEB1AAE800B003981E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4519AAE91AAE800B003981E9 /* Main.storyboard */; };
 		4519AAED1AAE800B003981E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4519AAEC1AAE800B003981E9 /* Images.xcassets */; };
 		4519AAF01AAE800B003981E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4519AAEE1AAE800B003981E9 /* LaunchScreen.xib */; };
 		4519AAFC1AAE800B003981E9 /* CalciumProSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519AAFB1AAE800B003981E9 /* CalciumProSwiftTests.swift */; };
-		4519AB551AAE83CC003981E9 /* IMG_1936.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4519AB541AAE83CC003981E9 /* IMG_1936.PNG */; };
 		45300A0B1AB2926E002221EB /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45300A0A1AB2926E002221EB /* RoundedButton.swift */; };
+		45F1AFD91AB4B99B00083AE7 /* IMG_1943.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 45F1AFD81AB4B99B00083AE7 /* IMG_1943.PNG */; };
+		45F1AFE51AB4C1EE00083AE7 /* GeneralInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F1AFE41AB4C1EE00083AE7 /* GeneralInformationViewController.swift */; };
 		4E2677821AB352000081F1F4 /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2677811AB352000081F1F4 /* BorderedView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4506BFB81AB4EED800301C1B /* MyDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDataTableViewController.swift; sourceTree = "<group>"; };
 		4519AAE01AAE800B003981E9 /* CalciumProSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalciumProSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4519AAE41AAE800B003981E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4519AAE51AAE800B003981E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,8 +42,9 @@
 		4519AAF51AAE800B003981E9 /* CalciumProSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalciumProSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4519AAFA1AAE800B003981E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4519AAFB1AAE800B003981E9 /* CalciumProSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalciumProSwiftTests.swift; sourceTree = "<group>"; };
-		4519AB541AAE83CC003981E9 /* IMG_1936.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1936.PNG; sourceTree = "<group>"; };
 		45300A0A1AB2926E002221EB /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		45F1AFD81AB4B99B00083AE7 /* IMG_1943.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1943.PNG; sourceTree = "<group>"; };
+		45F1AFE41AB4C1EE00083AE7 /* GeneralInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralInformationViewController.swift; sourceTree = "<group>"; };
 		4E2677811AB352000081F1F4 /* BorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,13 +87,13 @@
 		4519AAE21AAE800B003981E9 /* CalciumProSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4519AAE91AAE800B003981E9 /* Main.storyboard */,
+				4506BFB81AB4EED800301C1B /* MyDataTableViewController.swift */,
 				4519AAE51AAE800B003981E9 /* AppDelegate.swift */,
 				4519AAE71AAE800B003981E9 /* ViewController.swift */,
-				45300A0A1AB2926E002221EB /* RoundedButton.swift */,
-				4519AAE91AAE800B003981E9 /* Main.storyboard */,
-				4519AAEC1AAE800B003981E9 /* Images.xcassets */,
+				45F1AFE41AB4C1EE00083AE7 /* GeneralInformationViewController.swift */,
 				4519AAEE1AAE800B003981E9 /* LaunchScreen.xib */,
-				4E2677811AB352000081F1F4 /* BorderedView.swift */,
+				4519AAEC1AAE800B003981E9 /* Images.xcassets */,
 				4519AAE31AAE800B003981E9 /* Supporting Files */,
 			);
 			path = CalciumProSwift;
@@ -98,7 +102,8 @@
 		4519AAE31AAE800B003981E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4519AB541AAE83CC003981E9 /* IMG_1936.PNG */,
+				45300A0A1AB2926E002221EB /* RoundedButton.swift */,
+				4E2677811AB352000081F1F4 /* BorderedView.swift */,
 				4519AAE41AAE800B003981E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +121,7 @@
 		4519AAF91AAE800B003981E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45F1AFD81AB4B99B00083AE7 /* IMG_1943.PNG */,
 				4519AAFA1AAE800B003981E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -203,7 +209,6 @@
 			files = (
 				4519AAEB1AAE800B003981E9 /* Main.storyboard in Resources */,
 				4519AAF01AAE800B003981E9 /* LaunchScreen.xib in Resources */,
-				4519AB551AAE83CC003981E9 /* IMG_1936.PNG in Resources */,
 				4519AAED1AAE800B003981E9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F1AFD91AB4B99B00083AE7 /* IMG_1943.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +232,8 @@
 				45300A0B1AB2926E002221EB /* RoundedButton.swift in Sources */,
 				4519AAE61AAE800B003981E9 /* AppDelegate.swift in Sources */,
 				4E2677821AB352000081F1F4 /* BorderedView.swift in Sources */,
+				45F1AFE51AB4C1EE00083AE7 /* GeneralInformationViewController.swift in Sources */,
+				4506BFB91AB4EED800301C1B /* MyDataTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CalciumProSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CalciumProSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
