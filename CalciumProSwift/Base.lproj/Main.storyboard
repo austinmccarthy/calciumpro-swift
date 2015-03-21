@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9cx-Hk-G9R">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9cx-Hk-G9R">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -41,7 +41,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="myDataButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kAc-m9-qAX"/>
                                     <segue destination="kwe-3e-pTt" kind="push" id="LfA-Nk-jLe"/>
                                 </connections>
                             </button>
@@ -50,45 +49,30 @@
                                 <state key="normal" backgroundImage="home_nav_myanalysis">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="myAnalysisButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uTT-ZK-YJS"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afM-g3-c7Y" userLabel="My Risks">
                                 <rect key="frame" x="170" y="231" width="150" height="55"/>
                                 <state key="normal" backgroundImage="home_nav_myrisks">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="myRisksButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HeL-uM-2oK"/>
-                                </connections>
                             </button>
                             <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vw6-2E-6de" userLabel="Learn">
                                 <rect key="frame" x="170" y="312" width="150" height="55"/>
                                 <state key="normal" backgroundImage="home_nav_learn">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="learnButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8ba-Bb-SWF"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8Q-cc-sFk" userLabel="Connect">
                                 <rect key="frame" x="170" y="370" width="150" height="55"/>
                                 <state key="normal" backgroundImage="home_nav_connect">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="connectbuttonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FcI-zc-3eN"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Kg-jg-Aio" userLabel="View Blog">
-                                <rect key="frame" x="0.0" y="312" width="150.5" height="55"/>
+                                <rect key="frame" x="0.0" y="312" width="150" height="55"/>
                                 <state key="normal" backgroundImage="home_nav_blog">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="viewBlogButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XCU-Kf-tvE"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-mid" translatesAutoresizingMaskIntoConstraints="NO" id="7ry-CF-CLy">
                                 <rect key="frame" x="0.0" y="298" width="320" height="10"/>
@@ -106,7 +90,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Analyze and track your personal risk of parathyroid disease and osteoporosis" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLS-9N-l3l">
-                                <rect key="frame" x="15" y="115" width="135.5" height="88"/>
+                                <rect key="frame" x="15" y="115" width="135" height="88"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="88" id="VsT-km-eci"/>
                                 </constraints>
@@ -134,21 +118,15 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="settingsButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bXd-lQ-fj2"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dof-g8-uMU" customClass="RoundedButton" customModule="CalciumProSwift" customModuleProvider="target">
-                                <rect key="frame" x="96" y="441" width="57.5" height="30"/>
+                                <rect key="frame" x="96" y="441" width="57" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <state key="normal" title="Help">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="helpButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5hL-Z6-Vi3"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4B-Yh-Ge6" customClass="RoundedButton" customModule="CalciumProSwift" customModuleProvider="target">
                                 <rect key="frame" x="167" y="441" width="57" height="30"/>
@@ -158,21 +136,15 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="aboutButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OPo-dR-o0l"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xoE-Er-wHo" customClass="RoundedButton" customModule="CalciumProSwift" customModuleProvider="target">
-                                <rect key="frame" x="237" y="441" width="56.5" height="30"/>
+                                <rect key="frame" x="237" y="441" width="57" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <state key="normal" title="Share">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="sharebuttonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ry8-7P-I0c"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92156862745098034" green="0.95294117647058818" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -258,9 +230,12 @@
                             <rect key="frame" x="0.0" y="64" width="320" height="105"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpC-Wg-4hx">
-                                    <rect key="frame" x="8" y="0.0" width="304" height="80.5"/>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpC-Wg-4hx">
+                                    <rect key="frame" x="8" y="0.0" width="304" height="81"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="81" id="vPY-g1-6d3"/>
+                                    </constraints>
                                     <string key="text">Within the sections below, you will enter your data to help determine your risk. The minimum requirement is your general information and a blood calcium (Ca) level. The more information you provide the more accurate your results will be.</string>
                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -268,6 +243,7 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
+                                <constraint firstItem="QpC-Wg-4hx" firstAttribute="top" secondItem="uta-Ww-vQw" secondAttribute="top" id="Zea-AP-emT"/>
                                 <constraint firstAttribute="trailing" secondItem="QpC-Wg-4hx" secondAttribute="trailing" constant="8" id="aFd-wK-gGg"/>
                                 <constraint firstItem="QpC-Wg-4hx" firstAttribute="leading" secondItem="uta-Ww-vQw" secondAttribute="leading" constant="8" id="rsD-Eg-4oP"/>
                             </constraints>
