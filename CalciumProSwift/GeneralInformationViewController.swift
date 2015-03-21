@@ -8,16 +8,21 @@
 
 import UIKit
 
+func makeAlertAction(sender: UIButton) -> UIAlertAction {
+	return UIAlertAction(title: "Male", style: .Default, handler: {
+		(alert: UIAlertAction!) -> Void in
+		sender.setTitle("Male", forState: UIControlState.Normal)
+	})
+}
+
+
 class GeneralInformationViewController: UIViewController {
     
     @IBAction func sexButtonPressed(sender: UIButton) {
         let sexMenu = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
         
-        let maleAction = UIAlertAction(title: "Male", style: .Default, handler: {
-            (alert: UIAlertAction!) -> Void in
-            sender.setTitle("Male", forState: UIControlState.Normal)
-        })
-        let femaleAction = UIAlertAction(title: "Female", style: .Default, handler: {
+        let maleAction = makeAlertAction(sender)
+		let femaleAction = UIAlertAction(title: "Female", style: .Default, handler: {
             (alert: UIAlertAction!) -> Void in
             sender.setTitle("Female", forState: UIControlState.Normal)
         })
@@ -26,7 +31,6 @@ class GeneralInformationViewController: UIViewController {
         sexMenu.addAction(femaleAction)
 
         self.presentViewController(sexMenu, animated: true, completion: nil)
-    
     }
 
     @IBAction func regionButtonPressed(sender: UIButton) {
