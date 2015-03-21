@@ -10,17 +10,6 @@ import UIKit
 
 class GeneralInformationViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     @IBAction func sexButtonPressed(sender: UIButton) {
         let sexMenu = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
         

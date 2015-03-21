@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4506BFB91AB4EED800301C1B /* MyDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506BFB81AB4EED800301C1B /* MyDataTableViewController.swift */; };
 		4519AAE61AAE800B003981E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519AAE51AAE800B003981E9 /* AppDelegate.swift */; };
 		4519AAE81AAE800B003981E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519AAE71AAE800B003981E9 /* ViewController.swift */; };
 		4519AAEB1AAE800B003981E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4519AAE91AAE800B003981E9 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4506BFB81AB4EED800301C1B /* MyDataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDataTableViewController.swift; sourceTree = "<group>"; };
 		4519AAE01AAE800B003981E9 /* CalciumProSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalciumProSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4519AAE41AAE800B003981E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4519AAE51AAE800B003981E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				4519AAE91AAE800B003981E9 /* Main.storyboard */,
-				4506BFB81AB4EED800301C1B /* MyDataTableViewController.swift */,
 				4519AAE51AAE800B003981E9 /* AppDelegate.swift */,
 				4519AAE71AAE800B003981E9 /* ViewController.swift */,
 				45F1AFE41AB4C1EE00083AE7 /* GeneralInformationViewController.swift */,
@@ -233,7 +230,6 @@
 				4519AAE61AAE800B003981E9 /* AppDelegate.swift in Sources */,
 				4E2677821AB352000081F1F4 /* BorderedView.swift in Sources */,
 				45F1AFE51AB4C1EE00083AE7 /* GeneralInformationViewController.swift in Sources */,
-				4506BFB91AB4EED800301C1B /* MyDataTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
